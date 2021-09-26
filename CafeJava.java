@@ -34,8 +34,17 @@ public class CafeJava {
       if (isReadyOrder2){
         System.out.println(customer4 + readyMessage + displayTotalMessage + cappuccino);
       }
+      else{
+        System.out.println(customer4 +pendingMessage);
+      }
 
-      System.out.println(customer2 + displayTotalMessage + (latte * 2));
+      System.out.println(customer2 + displayTotalMessage + (latte * 2) {
+        if (isReadyOrder2){
+          System.out.println(customer2 + readyMessage);
+        } else {
+          System.out.println(customer2 + pendingMessage)
+        }
+      });
 
       System.out.println(customer3 + displayTotalMessage + (latte - dripCoffee));
   }
